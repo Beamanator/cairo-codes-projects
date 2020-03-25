@@ -13,7 +13,7 @@ Complete this Mini JavaScript Project:
     - `“remainder”`, return the remainder of the first divided by the second
 1. If the third parameter is none of the above, return the string `“Error: Invalid math operator”`
 1. If either number is less than or equal to 0 or greater than or equal to 100, return the string `“Error: Numbers must be between 1 and 99 (inclusive)”`
-1. If either number doesn’t exist (null or undefined), return the string `“Error: At least one number is not defined :(“`
+1. If either number doesn’t exist (`null` or `undefined`), return the string `“Error: At least one number is not defined :(“`
 1. Display the output of your function being called / invoked with these arguments, using `console.log(yourFunction(arg1, arg2, arg3))`:
     - 5, 5, “add”
     - 98, 58, “subtract”
