@@ -9,6 +9,7 @@ describe("My First Test", function() {
 describe("CC favorite test group", () => {
     it("runs sample tests", () => {
         expect(true).to.be.true;
+        expect("alex").to.equal("alex");
         expect([1, 2, 3]).to.include(3);
     });
 
