@@ -16,9 +16,9 @@ You will be creating a miniature task tracker!
     2. If `action` is `“add last”`, add the task parameter to the **end (right side)** of the `taskArray`
     3. If `action` is `“remove first”`, remove the **first** element (index 0) of `taskArray`
     4. If `action` is `“remove last”`, remove the **last** element of the `taskArray`
-    5. If `action` is `“get third item”`, return the **third** item (not _third index_) of `taskArray` - even if `taskArray` doesn’t have 3 items!
+    5. If `action` is `“get third item”`, console log the **third** item (not _third index_) of `taskArray` - even if `taskArray` doesn’t have 3 items!
     6. If `action` is not any of the above, console log the message \`Error: Action “\${action}” is not handled in this function.\`, then `return -1;`
-5. At the bottom of your function, console log two things:
+5. At the end of your function, console log two things:
     1. The message \`Action “\${action}” completed. New tasks:\`
     2. The new value of `taskArray`.
 
