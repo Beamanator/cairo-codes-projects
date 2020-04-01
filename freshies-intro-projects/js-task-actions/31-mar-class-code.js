@@ -9,6 +9,8 @@
  * - REFACTOR: Code refactoring is the process of restructuring existing code without changing its behavior.
  * 
  * Test your code often! After every change you make, test!
+ *
+ * Video of lecture: https://www.youtube.com/watch?v=cE6nyAorCfc
  */
 
 /*
