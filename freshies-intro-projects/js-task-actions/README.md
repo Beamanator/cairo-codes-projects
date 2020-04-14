@@ -10,7 +10,7 @@ You will be creating a miniature task tracker!
     2. The second argument should be called `task`. It must be an `object` or `null`.
 3. In your function, check the parameters are valid data types with this if-condition:
     1. If `action` is not a `string`, console log the message \`Error: Action “\${action}” needs to be a string!\`, then `return -1;`
-    2. If task is not an `object` or `null`, console log the message \`Error: Task must be an object or null, but instead found “\${typeof task}”\`, then `return -1;`
+    2. If `task` is not an `object` or `null`, console log the message \`Error: Task must be an object or null, but instead found “\${typeof task}”\`, then `return -1;`
 4. In your function, create an if-condition which checks what the action is, and does the appropriate thing:
     1. If `action` is `“add first”`, add the task parameter to the **beginning (left side)** of the `taskArray`
     2. If `action` is `“add last”`, add the task parameter to the **end (right side)** of the `taskArray`
